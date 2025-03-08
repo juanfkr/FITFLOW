@@ -16,10 +16,17 @@
 <style scoped>
 .nav-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   background: var(--secondary);
   padding: .5em 2em;
+
+  @media (max-width: 553px) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }
 
 .logo-item {

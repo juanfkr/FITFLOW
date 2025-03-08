@@ -67,6 +67,7 @@
   justify-content: center;
   gap: 2em;
   display: flex;
+  flex-wrap: wrap;
   margin: 4em 0;
 }
 

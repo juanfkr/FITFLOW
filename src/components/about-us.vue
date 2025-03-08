@@ -29,6 +29,7 @@
 <style scoped>
 .about-wrapper {
   display: flex;
+  flex-wrap: wrap;
   gap: 2em;
 }
 

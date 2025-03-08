@@ -40,7 +40,13 @@
 <style scoped>
 .feedback-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
+
+  @media (max-width: 1464px) {
+    justify-content: center;
+    gap: 1em;
+  }
 }
 
 .feedback-item {
@@ -51,6 +57,7 @@
   background: var(--secondary);
   padding: .5em;
   border-radius: .5em;
-  outline: 2px solid var(--primary)
+  outline: 2px solid var(--primary);
+
 }
 </style>

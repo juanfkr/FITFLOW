@@ -19,6 +19,10 @@
   width: 100%;
   height: 500px;
   position: relative;
+
+  @media (max-width: 553px) {
+    height: 300px;
+  }
 }
 
 .img-item {
@@ -38,6 +42,14 @@
   align-items: center;
   flex-direction: column;
   z-index: 999;
+
+  @media (max-width: 553px) {
+    font-size: .8em;
+
+    button {
+      font-size: 1.5em;
+    }
+  }
 }
 
 .paragraph {

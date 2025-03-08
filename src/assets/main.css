@@ -15,5 +15,6 @@
 
 body {
   height: 100dvh;
+  min-width: 100%;
   background: var(--background);
 }
