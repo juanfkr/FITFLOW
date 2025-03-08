@@ -29,8 +29,11 @@
 <style scoped>
 .about-wrapper {
   display: flex;
-  flex-wrap: wrap;
   gap: 2em;
+
+  @media (max-width: 1120px) {
+    flex-wrap: wrap;
+  }
 }
 
 .img-wrapper {
